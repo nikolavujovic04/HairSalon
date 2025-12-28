@@ -1,0 +1,90 @@
+header{
+   position: fixed;
+  top: 20px; 
+  left: 50%;
+  transform: translateX(-50%);/*centriranje header-a*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  z-index: 100;
+  width: 60%;
+  padding: 10px 20px;
+  
+  border-radius: 20px; /* zaobljene ivice */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.text-white{
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.orange-text{
+  color: rgb(255, 106, 0);
+  margin: 0;
+  font-size: 40px;
+}
+
+.title-grid{
+  font-size: 40px;
+}
+
+.grid-template{
+  background-color: rgb(1, 1, 24);
+  padding: 100px;
+}
+.first-grid{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  margin-bottom: 80px;
+}
+
+.text-grid{
+  font-size: 20px;
+  display: grid;
+  grid-template-rows: 1fr 40px;
+  row-gap: 20px;
+}
+
+.text-grid button{
+  background-color: white;
+  border:none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.second-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.background-image{
+  position: relative;
+  background-image: url('./images/barber-styling-hair-client.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  opacity: 50%;
+}
+
+h1{
+  font-size: 50px;
+  font-weight:bold;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  color: black;
+}
+
+.left-section img{
+  height: 60px;
+}
