@@ -46,4 +46,29 @@
   </div>
   </div>
 
+  <div class="services">
+    <h2>Because You Deserve The Best</h2>
+    <div class="services-grid">
+      <div>
+        <img src="./images/icons8-barber-scissors-50.png" alt="">
+        <p class="orange-text">Expert Stylists</p>
+        <p class="text-white">Our team of skilled professionals stays up-to-date
+          with the latest trends to give you a look you'll love
+        </p>
+      </div>
+      <div>
+        <img src="./images/icons8-hair-dryer-50.png" alt="">
+        <p class="orange-text">Best Products</p>
+        <p class="text-white">Our team of skilled professionals stays up-to-date
+          with the latest trends to give you a look you'll love</p>
+      </div>
+      <div>
+        <img src="./images/icons8-hairdresser-60.png" alt="">
+        <p class="orange-text">Best Service</p>
+        <p class="text-white">Our team of skilled professionals stays up-to-date
+          with the latest trends to give you a look you'll loved</p>
+      </div>
+    </div>
+  </div>
+
 @endsection

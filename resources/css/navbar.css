@@ -9,10 +9,8 @@ header{
   align-items: center;
   background-color: black;
   z-index: 100;
-  width: 60%;
+  width: 100%;
   padding: 10px 20px;
-  
-  border-radius: 20px; /* zaobljene ivice */
   box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
 }
 
@@ -87,4 +85,54 @@ h1{
 
 .left-section img{
   height: 60px;
+}
+
+.services{
+  position: relative;
+  background-color: rgb(35, 35, 35);
+  margin: 0;
+  padding: 100px;
+  animation: slideInUp linear forwards;
+      animation-timeline: scroll(); 
+}
+
+.services h2{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.services-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  text-align: center;
+}
+
+.card-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-in{
+  padding: 10px;
+  background-color: white;
+  color: rgb(35, 35, 35);
+  text-align: center;
+}
+
+.button-card{
+  background-color: transparent;
+  color: rgb(35, 35, 35);;
+  width: 50%;
+  border-color: rgb(35, 35, 35);
 }
