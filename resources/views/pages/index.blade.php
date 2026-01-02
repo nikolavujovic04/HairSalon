@@ -3,70 +3,47 @@
 @section('content')
 
   <div class="background-image">
-    <h1>Gde lepota susrece poverenje</h1>
-  </div>
-
-  <div class="grid-template">
-    <div class="first-grid">
-      <div class="title-grid">
-        More Than a Salon, An Experience
-      </div>
-
-      <div class="text-grid">
-        At Veloura, we believe beauty is more than just a look-
-        it's a feeling. Our mission is to cereate a hairstyle
-        <button>Read More</button>
-      </div>
+    <div class="title-background">
+      <h1>Gde lepota susrece poverenje</h1>
+      <p>Iskusite jednog od najboljih frizera u gradu Kraljevu</p>
+      <button class="reservation">Rezervisi sada</button>
+      <button class="services">Pogledaj usluge</button>
     </div>
-    <div class="second-grid">
-    <div>
-      <p class="orange-text">200+</p>
-      <p class="text-white">At Voloura, we believe beauty is more than just a look-it's
-        a feeling
-      </p>
-    </div>
-    <div>
-      <p class="orange-text">200+</p>
-      <p class="text-white">At Voloura, we believe beauty is more than just a look-it's
-        a feeling
-      </p>
-    </div>
-    <div>
-      <p class="orange-text">200+</p>
-      <p class="text-white">At Voloura, we believe beauty is more than just a look-it's
-        a feeling
-      </p>
-    </div>
-    <div>
-      <p class="orange-text">200+</p>
-      <p class="text-white">At Voloura, we believe beauty is more than just a look-it's
-        a feeling
-      </p>
-    </div>
-  </div>
+    
   </div>
 
   <div class="services">
-    <h2>Because You Deserve The Best</h2>
-    <div class="services-grid">
-      <div>
-        <img src="./images/icons8-barber-scissors-50.png" alt="">
-        <p class="orange-text">Expert Stylists</p>
-        <p class="text-white">Our team of skilled professionals stays up-to-date
-          with the latest trends to give you a look you'll love
-        </p>
+    <h2>Nase usluge</h2>
+    <p>U ovom salonu se pruzaju samo ekspertske usluge</p>
+    <div class="services-cards">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ asset('images/card1.jfif') }}" alt="">
+        </div>
+        <div class="card-info">
+          <h2>Izbrijavanje brade</h2>
+          <p>Obicno sisanje je jedan od nasih usluga, cena je samo 500 dinara</p>
+        </div>
       </div>
-      <div>
-        <img src="./images/icons8-hair-dryer-50.png" alt="">
-        <p class="orange-text">Best Products</p>
-        <p class="text-white">Our team of skilled professionals stays up-to-date
-          with the latest trends to give you a look you'll love</p>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ asset('images/card2.jfif') }}" alt="">
+        </div>
+        <div class="card-info">
+          <h2>Fejd frizura</h2>
+          <p>Obicno sisanje je jedan od nasih usluga, cena je samo 500 dinara</p>
+        </div>
       </div>
-      <div>
-        <img src="./images/icons8-hairdresser-60.png" alt="">
-        <p class="orange-text">Best Service</p>
-        <p class="text-white">Our team of skilled professionals stays up-to-date
-          with the latest trends to give you a look you'll loved</p>
+
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ asset('images/card3.jfif') }}" alt="">
+        </div>
+        <div class="card-info">
+          <h2>Obicno sisanje</h2>
+          <p>Obicno sisanje je jedan od nasih usluga, cena je samo 500 dinara</p>
+        </div>
       </div>
     </div>
   </div>

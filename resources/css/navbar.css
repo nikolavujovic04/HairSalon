@@ -1,17 +1,45 @@
 header{
-   position: fixed;
-  top: 20px; 
-  left: 50%;
-  transform: translateX(-50%);/*centriranje header-a*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  z-index: 100;
-  width: 100%;
-  padding: 10px 20px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1816;
+    z-index: 100;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+.left-section{
+  font-weight: bold;
+  padding-left: 20px;
+  color: #C9A961;
+}
+
+.middle-section a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+
+}
+.middle-section a:hover{
+  color: #C9A961;
+}
+
+.right-section{
+  padding: 0 20px;
+}
+.right-section button{
+  padding: 10px 20px 10px 20px;
+  background-color: #C9A961;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .text-white{
@@ -65,50 +93,89 @@ header{
 
 .background-image{
   position: relative;
-  background-image: url('./images/barber-styling-hair-client.jpg');
+  background-image: url('../../public/images/barber-styling-hair-client.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 600px;
-  width: 100%;
-  opacity: 50%;
 }
 
+.title-background{
+  position: absolute;
+  font-weight: bold;
+  left: 60%;
+  top: 40%;
+}
+
+.title-background .services{
+  width: 50%;
+  background-color: transparent;
+  border-color: #C9A961;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #C9A961;
+}
 h1{
   font-size: 50px;
-  font-weight:bold;
-  position: absolute;
-  top: 30%;
-  right: 5%;
+  width: 80%;
   color: black;
 }
 
-.left-section img{
-  height: 60px;
-}
-
 .services{
-  position: relative;
-  background-color: rgb(35, 35, 35);
-  margin: 0;
-  padding: 100px;
-  animation: slideInUp linear forwards;
-      animation-timeline: scroll(); 
+  background-color: #2A2421;
+  padding-top: 30px;
+  text-align: center;
+}
+.services p{
+  color: white;
 }
 
 .services h2{
   margin: 0;
-  text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: white;
   font-size: 30px;
+}
+
+.services-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.card{
+  background: #1A1614;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 30%;
+  transition:  transform 0.8s ease box-shadow 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.card-image img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.9s ease;
+}
+
+.card:hover .card-image img {
+    transform: scale(1.1);
 }
 
 .services-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 60px;
-  text-align: center;
 }
 
 .card-section{
@@ -117,22 +184,11 @@ h1{
   justify-content: space-between;
   align-items: center;
 }
-
-.card{
-  display: flex;
-  flex-direction: row;
+.card-info{
+  padding: 20px;
+  text-align: left;
 }
 
-.card-in{
-  padding: 10px;
-  background-color: white;
-  color: rgb(35, 35, 35);
-  text-align: center;
-}
-
-.button-card{
-  background-color: transparent;
-  color: rgb(35, 35, 35);;
-  width: 50%;
-  border-color: rgb(35, 35, 35);
+.card-info p{
+  color: rgb(161, 161, 161)
 }

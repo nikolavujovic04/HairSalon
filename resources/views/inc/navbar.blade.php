@@ -1,10 +1,10 @@
 <header>
     <div class="left-section">
-      <img src="./images/logo.png" alt="">
+      <h3>Frizerski Salon</h3>
     </div>
 
     <div class="middle-section">
-      <a href="/home">Pocetna</a>
+      <a href="/">Pocetna</a>
       <a href="/about">O nama</a>
       <a href="/services">Servisi</a>
       <a href="/gallery">Galerija</a>
@@ -13,7 +13,7 @@
 
     <div class="right-section">
       <button>
-        Contact
+        Rezervisi
       </button>
     </div>
 </header>
