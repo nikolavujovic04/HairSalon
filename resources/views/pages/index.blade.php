@@ -2,19 +2,26 @@
 
 @section('content')
 
-  <div class="background-image">
+<!-- HERO / BACKGROUND -->
+<div class="background-image">
+  <div class="container">
     <div class="title-background">
       <h1>Gde lepota susrece poverenje</h1>
-      <p>Iskusite jednog od najboljih frizera u gradu Kraljevu</p>
-      <button class="reservation">Rezervisi sada</button>
-      <button class="services">Pogledaj usluge</button>
+      <p style="color:grey;">Iskusite jednog od najboljih frizera u gradu Kraljevu</p>
+      <div class="buttons-reservation">
+        <button class="reservation">Rezervisi sada</button>
+        <button class="button-services">Pogledaj usluge</button>
+      </div>
     </div>
-    
   </div>
+</div>
 
-  <div class="services">
+<!-- SERVICES -->
+<div class="services">
+  <div class="container">
     <h2>Nase usluge</h2>
     <p>U ovom salonu se pruzaju samo ekspertske usluge</p>
+
     <div class="services-cards">
       <div class="card">
         <div class="card-image">
@@ -46,56 +53,62 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
 
+<!-- TEAM -->
+<div class="services">
+  <div class="container">
     <h2>Upoznajte tim</h2>
     <p>U svakom trenutku spremni na izazov</p>
 
     <div class="team-section">
-    <div class="team-card">
-      <div class="text-team">
-        <p class="name">Marcus Williams</p>
-        <p class="role">Master Barber</p>
-        <p class="specialisation">Klasican frizer</p>
-        <p class="experience">12 godina iskustva</p>
+      <div class="team-card">
+        <div class="text-team">
+          <p class="name">Marcus Williams</p>
+          <p class="role">Master Barber</p>
+          <p class="specialisation">Klasican frizer</p>
+          <p class="experience">12 godina iskustva</p>
+        </div>
       </div>
-      
-    </div>
 
-    <div class="team-card">
-      <div class="text-team">
-        <p class="name">Marcus Williams</p>
-        <p class="role">Master Barber</p>
-        <p class="specialisation">Klasican frizer</p>
-        <p class="experience">12 godina iskustva</p>
+      <div class="team-card">
+        <div class="text-team">
+          <p class="name">Marcus Williams</p>
+          <p class="role">Master Barber</p>
+          <p class="specialisation">Klasican frizer</p>
+          <p class="experience">12 godina iskustva</p>
+        </div>
       </div>
-    </div>
 
-    <div class="team-card">
-      <div class="text-team">
-        <p class="name">Marcus Williams</p>
-        <p class="role">Master Barber</p>
-        <p class="specialisation">Klasican frizer</p>
-        <p class="experience">12 godina iskustva</p>
+      <div class="team-card">
+        <div class="text-team">
+          <p class="name">Marcus Williams</p>
+          <p class="role">Master Barber</p>
+          <p class="specialisation">Klasican frizer</p>
+          <p class="experience">12 godina iskustva</p>
+        </div>
       </div>
-    </div>
 
-    <div class="team-card">
-      <div class="text-team">
-        <p class="name">Marcus Williams</p>
-        <p class="role">Master Barber</p>
-        <p class="specialisation">Klasican frizer</p>
-        <p class="experience">12 godina iskustva</p>
+      <div class="team-card">
+        <div class="text-team">
+          <p class="name">Marcus Williams</p>
+          <p class="role">Master Barber</p>
+          <p class="specialisation">Klasican frizer</p>
+          <p class="experience">12 godina iskustva</p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  </div>
-
-  <div class="pricing-general">
+<!-- PRICING -->
+<div class="pricing-general">
+  <div class="container">
     <h2>Nase cene</h2>
     <p>Prikazani su najpovoljniji paketi</p>
+
     <div class="pricing">
-      
       <div class="pricing-cards classic">
         <h2>Klasicno sisanje</h2>
         <p class="pricing-description">Perfektno za svaciji ukus</p>
@@ -103,8 +116,8 @@
       </div>
 
       <div class="pricing-cards signature">
-        <h2>Fjed sisanje</h2>
-        <p class="pricing-description"> Perfektno za mladje generacije</p>
+        <h2>Fejd sisanje</h2>
+        <p class="pricing-description">Perfektno za mladje generacije</p>
         <p style="color:#2A2421;">900din</p>
       </div>
 
@@ -114,11 +127,7 @@
         <p class="pricing-text">500din</p>
       </div>
     </div>
-  
   </div>
-
-  
-
-
+</div>
 
 @endsection
