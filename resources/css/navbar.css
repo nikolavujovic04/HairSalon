@@ -127,6 +127,7 @@ h1{
   background-color: #2A2421;
   padding-top: 30px;
   text-align: center;
+  padding-bottom: 30px;
 }
 .services p{
   color: white;
@@ -145,6 +146,7 @@ h1{
   gap: 30px;
   margin: 0 auto;
   width: 90%;
+  padding-bottom: 150px;
 }
 
 .card{
@@ -172,12 +174,6 @@ h1{
     transform: scale(1.1);
 }
 
-.services-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 60px;
-}
-
 .card-section{
   display: flex;
   flex-direction: row;
@@ -191,4 +187,95 @@ h1{
 
 .card-info p{
   color: rgb(161, 161, 161)
+}
+
+.team-section{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.team-card{
+  border-radius: 8px;
+  height: 400px;
+  width: 22%;
+  position: relative;
+  background-image:
+  linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+  url('../../public/images/card2.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition:  transform 0.8s ease box-shadow 0.8s ease;
+}
+
+.team-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.text-team{
+  text-align: left;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+.name{
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+.role{
+  color: #C9A961 !important;
+}
+
+.pricing-general{
+  padding-top: 100px;
+  align-items: center;
+  text-align: center;
+  color: white !important;
+  background-color: #1C1816;
+}
+
+
+.pricing{
+  display: flex;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pricing-cards{
+  height: 600px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #C9A961;
+  border-width: 1px;
+  width: 30%;
+  padding: 20px;
+  background-color: #2A2421;
+}
+
+.signature{
+  background-color: #C9A961;
+  color: black;
+}
+
+.classic{
+  color: white !important;
+}
+
+.pricing-text{
+  color: #C9A961;
+}
+
+.pricing-description{
+  color: grey;
 }

@@ -46,6 +46,79 @@
         </div>
       </div>
     </div>
+
+    <h2>Upoznajte tim</h2>
+    <p>U svakom trenutku spremni na izazov</p>
+
+    <div class="team-section">
+    <div class="team-card">
+      <div class="text-team">
+        <p class="name">Marcus Williams</p>
+        <p class="role">Master Barber</p>
+        <p class="specialisation">Klasican frizer</p>
+        <p class="experience">12 godina iskustva</p>
+      </div>
+      
+    </div>
+
+    <div class="team-card">
+      <div class="text-team">
+        <p class="name">Marcus Williams</p>
+        <p class="role">Master Barber</p>
+        <p class="specialisation">Klasican frizer</p>
+        <p class="experience">12 godina iskustva</p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="text-team">
+        <p class="name">Marcus Williams</p>
+        <p class="role">Master Barber</p>
+        <p class="specialisation">Klasican frizer</p>
+        <p class="experience">12 godina iskustva</p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <div class="text-team">
+        <p class="name">Marcus Williams</p>
+        <p class="role">Master Barber</p>
+        <p class="specialisation">Klasican frizer</p>
+        <p class="experience">12 godina iskustva</p>
+      </div>
+    </div>
   </div>
+
+  </div>
+
+  <div class="pricing-general">
+    <h2>Nase cene</h2>
+    <p>Prikazani su najpovoljniji paketi</p>
+    <div class="pricing">
+      
+      <div class="pricing-cards classic">
+        <h2>Klasicno sisanje</h2>
+        <p class="pricing-description">Perfektno za svaciji ukus</p>
+        <p class="pricing-text">500din</p>
+      </div>
+
+      <div class="pricing-cards signature">
+        <h2>Fjed sisanje</h2>
+        <p class="pricing-description"> Perfektno za mladje generacije</p>
+        <p style="color:#2A2421;">900din</p>
+      </div>
+
+      <div class="pricing-cards executive">
+        <h2>Klasicno sisanje</h2>
+        <p class="pricing-description">Perfektno za svaciji ukus</p>
+        <p class="pricing-text">500din</p>
+      </div>
+    </div>
+  
+  </div>
+
+  
+
+
 
 @endsection
