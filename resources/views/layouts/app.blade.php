@@ -11,6 +11,8 @@
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   @vite(['resources/css/general.css', 'resources/css/navbar.css'])
+  @vite('resources/js/script.js')
+
 </head>
   <body>
     @include('inc.navbar')

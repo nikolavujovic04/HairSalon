@@ -4,7 +4,7 @@
     </div>
 
     <div class="middle-section">
-      <a href="/">Pocetna</a>
+      <a href="/">Početna</a>
       <a href="/about">O nama</a>
       <a href="/services">Servisi</a>
       <a href="/gallery">Galerija</a>
@@ -13,7 +13,12 @@
 
     <div class="right-section">
       <button>
-        Rezervisi
+        Rezerviši
       </button>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
 </header>
