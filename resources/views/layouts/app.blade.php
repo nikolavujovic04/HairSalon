@@ -10,7 +10,7 @@
 
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-  @vite(['resources/css/general.css', 'resources/css/navbar.css'])
+  @vite(['resources/css/general.css', 'resources/css/navbar.css', 'resources/css/contact.css'])
   @vite('resources/js/script.js')
 
 </head>

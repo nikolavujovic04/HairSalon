@@ -17,4 +17,8 @@ class PagesController extends Controller
     public function admin(){
         return validator('pages.admin');
     }
+
+    public function contact(){
+        return view('pages.contact');
+    }
 }
