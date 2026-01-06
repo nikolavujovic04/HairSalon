@@ -6,24 +6,26 @@
     <div class="left">
       <h1>Chat to out team</h1>
       <p>This is some text about contact</p>
-      <form action="/" method="POST">
+      <form action="{{ route('contact.send') }}" method="POST">
         @csrf
+
         <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
+          <label>Name:</label>
+          <input type="text" name="name">
         </div>
+
         <div>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_email">
+          <label>Email:</label>
+          <input type="email" name="email">
         </div>
+
         <div>
-            <label for="mail">Phone Number:</label>
-            <input type="email" id="mail" name="user_email">
+          <label>Message:</label>
+          <textarea name="message"></textarea>
         </div>
-        <div class="button">
-            <button type="submit">Send Message</button>
-        </div>
-    </form>
+
+        <button type="submit">Send Message</button>
+      </form>
     </div>
 
     <div class="right-side">

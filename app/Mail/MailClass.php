@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use Illuminate\Mail\Mailables\Address;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -16,9 +17,11 @@ class MailClass extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+
+    public $formData;
+    public function __construct($formData)
     {
-        //
+        $this->formData = $formData;
     }
 
     /**
@@ -27,7 +30,14 @@ class MailClass extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Mail Class',
+            subject: 'Dogovor oko rezervacije',
+            from:   new Address(
+            config('mail.from.address'),
+            config('mail.from.name')
+            ),
+            replyTo:[
+                new Address($this->formData['email'],$this->formData['name'])
+            ]
         );
     }
 
@@ -37,7 +47,7 @@ class MailClass extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.name',
+            view: 'pages.contact_message',
         );
     }
 
