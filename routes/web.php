@@ -9,3 +9,4 @@ Route::get('/about', [PagesController::class,'about'])->name('about');
 Route::get('/admin', [PagesController::class,'admin'])->name('admin');
 Route::get('/contact', [PagesController::class,'contact'])->name('contact');
 Route::post('/contact', [ContantController::class,'sendEmail'])->name('contact.send');
+Route::get('/reservation', [PagesController::class,''])->name('reservation');
