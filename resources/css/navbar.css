@@ -100,7 +100,7 @@ header {
     background-image: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0)), url('../../public/images/barber-styling-hair-client.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 660px;
     padding: 0 100px;
     margin-top: 70px; /* ispod fixed headera */
 }
