@@ -32,7 +32,11 @@
     </div>
 
     <div class="reservation-right">
-
+      <h1>MAKE YOUR RESERVATION</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Animi facere, soluta perspiciatis.
+      </p>
     </div>
   </div>
 @endsection
