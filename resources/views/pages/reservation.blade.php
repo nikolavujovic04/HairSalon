@@ -1,10 +1,38 @@
-@extends('app.layouts')
+@extends('layouts.app')
 
 @section('content')
-  <div>
+  <div class="reservation">
     <div class="reservation-left">
+      <form action="" method="POST">
+        <div>
+            <label for="name">Ime i prezime</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="checkin">Datum</label>
+            <input type="date" id="checkin" name="checkin_date">
+        </div>
+        <div>
+            <label for="style-choose">Izaberite uslugu</label>
+            <input list="hair" id="hair-choice" name="hair-choice" />
+
+            <datalist id="hair">
+              @foreach ($services as $service)
+                  <option value="{{ $service->serviceName }}">{{ $service->serviceName }}</option>
+              @endforeach
+              
+            </datalist>
+        </div>
+        <button type="submit">Rezervisi</button>
+      </form>
     </div>
 
-    <div class="reservation-right"></div>
+    <div class="reservation-right">
+
+    </div>
   </div>
 @endsection

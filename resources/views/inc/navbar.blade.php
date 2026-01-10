@@ -13,7 +13,7 @@
 
     <div class="right-section">
       <button>
-        Rezerviši
+      <a href="/serviceReservation">Rezerviši</a>    
       </button>
       <div class="burger">
         <span></span>

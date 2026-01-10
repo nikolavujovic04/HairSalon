@@ -13,7 +13,7 @@ class ReservationsController extends Controller
     public function index()
     {
         $reservations = Reservation::all();
-        return view('admin.reservations')->with('resertvations', $reservations);
+        return view('admin.reservations')->with('reservations', $reservations);
     }
 
     /**
